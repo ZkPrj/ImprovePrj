@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	b = 2;
     }
     c = addNum(a, b);
-    printf("%d + %d = %c \n", a, b, c);
+    printf("%d + %d = %d \n", a, b, c);
 
     return 0;
 }
