@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Project/ImprovePrj/ImprovePrj/cmake/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe     -g   -o CMakeFiles\\demo.dir\\main.cpp.obj -c C:\\Project\\ImprovePrj\\ImprovePrj\\cmake\\main.cpp",
+  "file": "C:/Project/ImprovePrj/ImprovePrj/cmake/main.cpp"
+},
+{
+  "directory": "C:/Project/ImprovePrj/ImprovePrj/cmake/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe     -g   -o CMakeFiles\\demo.dir\\mathfunc.cpp.obj -c C:\\Project\\ImprovePrj\\ImprovePrj\\cmake\\mathfunc.cpp",
+  "file": "C:/Project/ImprovePrj/ImprovePrj/cmake/mathfunc.cpp"
+}
+]

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Project/ImprovePrj/ImprovePrj/cmake/main.cpp
+iostream
+-
+mathfunc.h
+C:/Project/ImprovePrj/ImprovePrj/cmake/mathfunc.h
+
+C:/Project/ImprovePrj/ImprovePrj/cmake/mathfunc.cpp
+mathfunc.h
+C:/Project/ImprovePrj/ImprovePrj/cmake/mathfunc.h
+
+C:/Project/ImprovePrj/ImprovePrj/cmake/mathfunc.h
+
