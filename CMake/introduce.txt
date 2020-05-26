@@ -1,0 +1,41 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)    #CMAKE 最小版本要求
+
+PROJECT(server_project)               #工程名称
+
+MESSAGE(STATUS "Project: SERVER")               #打印相关消息消息
+    MESSAGE:
+        FATAL_ERROR   #错误
+        WARNING       #警告
+        STATUS        #正常输出
+        
+SET(CMAKE_BUILE_TYPE DEBUG)     #指定编译类型
+    语法： SET(VAR [VALUE] [CACHE TYPE DOCSTRING [FORCE]]) 
+    指令功能: 用来显式的定义变量         #CMAKE前缀的变量一般为内置变量
+    
+ADD_SUBDIRECTORY(utility)                              #添加子目录    
+
+INCLUDE_DIRECTORIES(                          #相关头文件的目录
+     /usr/local/include
+     ${PROJET_SOURCE_DIR}/utility
+     )
+     
+LINK_DIRECTORIES(                                  #相关库文件的目录
+    /usr/local/lib 
+    )
+
+ADD_LIBRARY(association ${SOURCE_FILES})         #生成静态链接库libassociation.a   
+
+ADD_EXECUTABLE(server  ${SOURCE_FILES})              #指定要生成的执行文件的名称server 
+
+SET_TARGET_PROPERTIES(server  PROPERTIES    #表示生成的执行文件所在路径
+     RUNTIME_OUTPUT_DIRECTORY  "${PROJECT_SOURCE_DIR}/bin")
+
+TARGET_LINK_LIBRARIES(association core）                #依赖的库文件
+
+
+内置变量：
+    PROJECT_SOURCE_DIR   #工程路径
+    
+        
+        
+  
