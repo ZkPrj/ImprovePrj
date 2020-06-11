@@ -1,0 +1,5 @@
+c:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/CMakeFiles/edit_cache.dir
+c:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/CMakeFiles/rebuild_cache.dir
+c:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/chp2/CMakeFiles/PrimerChap2.dir
+c:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/chp2/CMakeFiles/edit_cache.dir
+c:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/chp2/CMakeFiles/rebuild_cache.dir

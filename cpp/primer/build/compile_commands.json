@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Project/ImprovePrj/ImprovePrj/cpp/primer/build/chp2",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe     -g   -o CMakeFiles\\PrimerChap2.dir\\src\\chap2.obj -c C:\\Project\\ImprovePrj\\ImprovePrj\\cpp\\primer\\chp2\\src\\chap2.cpp",
+  "file": "C:/Project/ImprovePrj/ImprovePrj/cpp/primer/chp2/src/chap2.cpp"
+}
+]
